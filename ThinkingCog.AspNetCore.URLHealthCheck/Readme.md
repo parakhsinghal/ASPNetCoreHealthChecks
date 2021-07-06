@@ -35,7 +35,7 @@ public void ConfigureServices(IServiceCollection services)
 {
     services.AddControllers();            
             
-    var processorHealthCheckSettingsFromConfig = Configuration.GetSection("ProcessorHealthCheckSettings").Get<ProcessorLoadHealthCheckOptions>();		
+    var urlHealthCheckSettingsFromConfig = Configuration.GetSection("URLHealthCheckSettings").Get<URLHealthCheckOptions>();		
 	
 	services.AddHealthChecks()
 			.AddURLHealthCheck(
