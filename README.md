@@ -20,7 +20,7 @@ Install-Package ThinkingCog.ASPNetCore.MemoryHealthCheck
 
 ## Processor load health check
 ```PowerShell
-Install-Package ThinkingCog.ASPNetCore.ProcessorLoadHEalthCheck
+Install-Package ThinkingCog.ASPNetCore.ProcessorLoadHealthCheck
 ```
 
 ## SQL Server health check
