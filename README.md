@@ -10,7 +10,7 @@ All the health checks target ASP.Net Core application built using .Net Core 5 an
 
 ## Disk health check
 ```PowerShell
-Install-Package ThinkingCog.AspNetCore.DiskHealthCheck
+Install-Package ThinkingCog.ASPNetCore.DiskHealthCheck
 ```
 
 ## Memory health check
