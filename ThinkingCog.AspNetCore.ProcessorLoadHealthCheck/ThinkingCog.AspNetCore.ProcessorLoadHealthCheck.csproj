@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Parakh Singhal</Authors>
+    <Company>ThinkingCog</Company>
+    <PackageProjectUrl>https://github.com/parakhsinghal/ASPNetCoreHealthChecks</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/parakhsinghal/ASPNetCoreHealthChecks</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>This NuGet package helps you determine the state of the health of the hosted ASP.Net Core application or API in terms of the processor load. The NuGet package allows you to set the threshold for processor load in percentage term and also a secondary threshold, beyond which the state would be termed as Degraded.</Description>
+    <Copyright>Parakh Singhal</Copyright>
+    <PackageTags>ASP.Net Core Health Check; Processor Health Check</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="5.0.7" />
+  </ItemGroup>
+
+</Project>
